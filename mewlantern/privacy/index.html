@@ -21,229 +21,147 @@
     </header>
     <main>
       <h1>Privacy policy</h1>
-      <p class="muted">Effective 22 October 2026</p>
-
+      <p class="muted">Effective 24 October 2026 · first iPhone release</p>
       <p>
-        Mewlantern is a free puzzle game for iPhone and Android, supported by ads. This policy
-        explains what data the game and the services it uses collect, why, and the choices you have.
-        Mewlantern has no accounts: you never give us your name or email to play.
+        Mewlantern is a free puzzle game. This version has no advertisements, advertising consent
+        form, tracking prompt or gameplay analytics. No account is required. Advertising and
+        analytics code is retained for a possible later update but is inactive in this release. We
+        will update this policy before changing what the game collects.
       </p>
-
       <h2>Who we are</h2>
       <p>
         Mewlantern is made by Radu Proca, an individual developer based in the United Kingdom, who
         is the controller of the personal data described here. Contact:
         <a href="mailto:mewlantern.support@gmail.com">mewlantern.support@gmail.com</a>.
       </p>
-
-      <h2>Data that stays on your device</h2>
+      <h2>Your saved game</h2>
       <p>
-        Your level-by-level progress, best moves and stars, nickname, Nova's house and outfit, story
-        choices and settings are saved only on your device. Deleting the app deletes them. Your
-        nickname never leaves the device. If usage stats are on, game analytics (below) receives a
-        summary of your progress, never the full record.
+        Your full saved game, including progress, best moves, stars, nickname, house, outfit, story
+        choices and settings, stays on your device. There is no cloud save or cross-device sync.
+        Deleting the app removes its local saved game. The game does not send your nickname or
+        upload a copy of your save. Diagnostic reports can include recent game actions as described
+        below. A PostHog Player ID is not created or displayed in this release.
       </p>
-
-      <h2>Your Player ID</h2>
-      <p>
-        On first launch the game creates a random <strong>Player ID</strong>. It isn't linked to
-        your name, email or phone number. You can see it in the app under <strong>Profile</strong>,
-        below the version. Analytics and crash reports (below) use it, so quote it when you contact
-        us about your data.
-      </p>
-
-      <h2>What is collected, and why</h2>
+      <h2>Services used in this release</h2>
       <div class="table-wrap">
         <table class="stack">
           <thead>
             <tr>
               <th>Service</th>
               <th>Data</th>
-              <th>Purpose and legal basis</th>
+              <th>Purpose</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>
-                <strong>Advertising</strong><br />Google AdMob (Google LLC and Google Ireland
-                Limited)
+                <strong>Crash diagnostics</strong><br />Sentry (Functional Software, Inc., EU
+                project)
               </td>
               <td data-label="Data">
-                Advertising identifier (on iPhone only if you allow tracking), IP address and
-                approximate location, device and app information, ad views and taps
+                Errors, diagnostic installation/session identifiers, device and operating-system
+                details, app version and update, recent in-game actions, app sessions, and sampled
+                performance data such as screen-loading times. The app disables default personal
+                information collection and overrides the reported IP address to prevent IP
+                inference. Session replay and automatic screenshots are off.
               </td>
-              <td data-label="Purpose and legal basis">
-                Showing ads (including optional videos for extra hints), measuring them and
-                preventing fraud. Personalised ads only with your consent where the law requires it;
-                otherwise our legitimate interest in funding a free game.
-              </td>
+              <td data-label="Purpose">Finding and fixing errors and performance problems.</td>
             </tr>
             <tr>
-              <td><strong>Game analytics</strong><br />PostHog (PostHog Inc., EU hosting)</td>
+              <td><strong>Feedback you choose to send</strong><br />Sentry</td>
               <td data-label="Data">
-                Player ID; gameplay events (levels started, finished, paused or left, moves, stars,
-                hints used, time taken, when a crate gets stuck, how you control the game: swipes,
-                taps or on-screen arrows), screens viewed, settings changed, ads shown, rewards and
-                house items used; a summary of your progress (levels and chapters completed, stars,
-                golden fireflies, outfits and rewards unlocked, settings); device model, operating
-                system, app version and update, language; approximate location derived from your IP
-                address
+                Your bug report and associated app diagnostics; your name and email only if you
+                choose to enter them. Those contact fields are optional. The form does not
+                automatically fill them from your nickname.
               </td>
-              <td data-label="Purpose and legal basis">
-                Understanding which levels are too hard or confusing, fixing problems and improving
-                the game. In the UK, EEA and Switzerland only if you say yes when the game asks (and
-                allow storing data on your device in the consent form). Elsewhere our legitimate
-                interest in improving the game: the game tells you about it once, and you can switch
-                it off at any time.
-              </td>
-            </tr>
-            <tr>
-              <td><strong>Game settings</strong><br />PostHog (PostHog Inc., EU hosting)</td>
-              <td data-label="Data">
-                Player ID and IP address when the game fetches its current settings. No gameplay
-                data or progress when usage stats are off
-              </td>
-              <td data-label="Purpose and legal basis">
-                Running the game safely: how often ads appear, free hints, switching off a broken
-                feature, asking you to update, and support fixes you ask us for. This happens even
-                with usage stats off: our legitimate interest in a working, safe game.
-              </td>
-            </tr>
-            <tr>
-              <td><strong>Crash reports</strong><br />Sentry (Functional Software, Inc.)</td>
-              <td data-label="Data">
-                Player ID, error details, device model, operating system, app version, recent in-app
-                actions before the error, app sessions (when the game opens and closes, to measure
-                how often it crashes), how quickly screens load. No IP address. If you use the
-                in-app feedback form: what you write, and your name and email only if you choose to
-                add them
-              </td>
-              <td data-label="Purpose and legal basis">
-                Finding and fixing crashes and bugs: our legitimate interest in a working game.
+              <td data-label="Purpose">
+                Investigating your report and replying when contact details are supplied.
               </td>
             </tr>
             <tr>
               <td><strong>App updates</strong><br />Expo (650 Industries, Inc.)</td>
               <td data-label="Data">
-                App version, platform and IP address when the game checks for updates (when it
-                starts and when you come back to it)
+                A random client identifier saved on this installation, platform, app/runtime
+                version, update channel, current update and IP address when the game checks for or
+                downloads compatible updates. If a previous launch failed, the updater can include a
+                limited startup-error excerpt. Expo can derive aggregate app-usage statistics from
+                update requests. This client identifier is separate from a PostHog Player ID and is
+                not an advertising identifier.
               </td>
-              <td data-label="Purpose and legal basis">
-                Delivering bug fixes: our legitimate interest in a working game.
+              <td data-label="Purpose">
+                Delivering compatible fixes and operating the update service.
               </td>
             </tr>
             <tr>
               <td><strong>Support email</strong></td>
-              <td data-label="Data">Your email address and what you write to us</td>
-              <td data-label="Purpose and legal basis">
-                Answering you: our legitimate interest, or taking steps you asked for.
-              </td>
+              <td data-label="Data">Your email address and the information you choose to send.</td>
+              <td data-label="Purpose">Answering your request.</td>
             </tr>
           </tbody>
         </table>
       </div>
       <p>
-        Apple and Google also share aggregated statistics and crash reports with developers, under
-        their own privacy policies. We don't sell your personal data, and we don't knowingly use
-        sensitive personal data.
+        We use these services for our legitimate interest in keeping the game working and helping
+        players. We do not sell personal data or use it for cross-app advertising. Apple may also
+        provide aggregated store statistics and crash reports under its own privacy settings. The
+        providers receive network addresses when connections reach them; the Sentry override
+        concerns report content and does not make network connections anonymous.
       </p>
-
       <h2>Your choices</h2>
-      <ul>
-        <li>
-          <strong>Ads and data consent:</strong> in the UK, EEA and Switzerland, Google's consent
-          form asks for your choices on first launch. Change them at any time in
-          <strong>Profile → Settings → Privacy options</strong>. If you decline, the game doesn't
-          ask to track you and sends no analytics; ads may still appear, without personalisation.
-        </li>
-        <li>
-          <strong>Tracking on iPhone:</strong> the game only uses your advertising identifier if you
-          allow tracking. Change it in iPhone
-          <strong>Settings → Privacy &amp; Security → Tracking</strong>.
-        </li>
-        <li>
-          <strong>Usage stats:</strong> in the UK, EEA and Switzerland the game asks before sharing
-          any. Anywhere, switch off <strong>Profile → Settings → Share usage stats</strong> to stop
-          sending analytics.
-        </li>
-        <li>
-          <strong>Advertising ID:</strong> you can reset or delete it in your device settings.
-        </li>
-        <li>
-          <strong>US state privacy laws:</strong> where you have a right to opt out of targeted
-          advertising, use Privacy options in the game (when shown) or your device's tracking and
-          advertising settings.
-        </li>
-      </ul>
-
+      <p>
+        You can play the included puzzles, story and house content without an internet connection.
+        Updates, online support pages and sending feedback need a connection. Feedback is voluntary;
+        avoid including sensitive information. This release has no gameplay-analytics switch because
+        that service is inactive. A preference saved by an earlier preview is retained locally and
+        does not enable collection. There is no recording of your screen or play session.
+      </p>
       <h2>How long data is kept</h2>
       <ul>
-        <li>On your device: until you delete the game.</li>
-        <li>Analytics (PostHog): up to 12 months, then deleted.</li>
-        <li>Crash reports (Sentry): up to 90 days.</li>
-        <li>Support emails: as long as needed to help you, and no longer than 2 years.</li>
+        <li>Local saved game: until you delete the app or reset the relevant section.</li>
+        <li>Crash reports and performance diagnostics: up to 90 days.</li>
+        <li>Support correspondence: as long as needed to help you, and no longer than 2 years.</li>
         <li>
-          Google AdMob: under
-          <a href="https://policies.google.com/technologies/retention">Google's retention policy</a
-          >.
+          Expo service data: under <a href="https://expo.dev/privacy">Expo's privacy policy</a>.
         </li>
       </ul>
-
       <h2>Your rights</h2>
       <p>
-        Under UK data protection law (and the GDPR in the EEA) you can ask to access, correct or
-        delete your data, to restrict or object to how it's used, to receive a copy, and to withdraw
-        consent at any time. Email
-        <a href="mailto:mewlantern.support@gmail.com">mewlantern.support@gmail.com</a> with your
-        Player ID; without it we can't tell which data is yours. We reply within one month. For data
-        Google holds for advertising, you can also contact Google directly.
+        Under UK data protection law and the GDPR in the EEA, you can ask to access, correct or
+        delete your data, restrict or object to its use, or receive a copy. Email
+        <a href="mailto:mewlantern.support@gmail.com">mewlantern.support@gmail.com</a>. Include the
+        date, app version and any report reference or contact address you supplied so we can try to
+        locate your data. We may be unable to identify a report that has no contact information. We
+        reply within one month. Deleting the app removes its local data but does not automatically
+        remove reports already sent.
       </p>
       <p>
-        If you're unhappy with how we handle your data, you can complain to the UK Information
-        Commissioner's Office at <a href="https://ico.org.uk/make-a-complaint/">ico.org.uk</a>, or
-        to the data protection authority where you live.
+        You can complain to the UK Information Commissioner's Office at
+        <a href="https://ico.org.uk/make-a-complaint/">ico.org.uk</a>, or the data protection
+        authority where you live.
       </p>
-
-      <h2>International transfers</h2>
+      <h2>International transfers and security</h2>
       <p>
-        Analytics data is stored in the EU. Google, Sentry and Expo may process data in the United
-        States and other countries. These transfers are protected by the safeguards UK and EU law
-        require, such as the UK–US data bridge, the UK International Data Transfer Addendum or the
-        EU Standard Contractual Clauses. Each provider is contractually required to protect the data
-        at least as well as this policy does.
+        The Sentry project uses EU storage. Our providers may process service data in other
+        countries, including the United States, subject to their contractual safeguards for UK and
+        EU data. Connections from the game use HTTPS. Access to diagnostic and support data is
+        limited to running and supporting the game.
       </p>
-
       <h2>Children</h2>
       <p>
-        Mewlantern is suitable for a general audience but isn't directed at children under 13, and
-        we don't knowingly collect personal data from them. Ads are limited to content suitable for
-        most audiences. If you believe a child has sent us personal data, email us and we'll delete
-        it.
+        Mewlantern is for a general audience and is not directed at children under 13. We do not
+        knowingly collect personal information from them. If you believe a child has supplied
+        personal data, contact us so we can investigate and delete it.
       </p>
-
-      <h2>Security</h2>
-      <p>
-        Data sent by the game travels over encrypted connections (HTTPS). We only work with
-        providers that protect the data they process for us.
-      </p>
-
-      <h2>The providers' policies</h2>
+      <h2>Provider policies</h2>
       <ul>
-        <li>
-          Google: <a href="https://policies.google.com/privacy">privacy policy</a> and
-          <a href="https://policies.google.com/technologies/partner-sites">
-            how Google uses data from apps that use its services</a
-          >
-        </li>
-        <li>PostHog: <a href="https://posthog.com/privacy">privacy policy</a></li>
-        <li>Sentry: <a href="https://sentry.io/privacy/">privacy policy</a></li>
-        <li>Expo: <a href="https://expo.dev/privacy">privacy policy</a></li>
+        <li><a href="https://sentry.io/privacy/">Sentry privacy policy</a></li>
+        <li><a href="https://expo.dev/privacy">Expo privacy policy</a></li>
       </ul>
-
       <h2>Changes</h2>
       <p>
-        We'll post any changes on this page and update the date at the top. If a change affects how
-        your data is used in a significant way, we'll also say so in the game's update notes.
+        We will update this page and its effective date when practices change. Significant changes
+        will also be described in the game's release notes. Ads or gameplay analytics require a
+        dedicated later update and revised disclosures before activation.
       </p>
     </main>
     <footer class="site">
