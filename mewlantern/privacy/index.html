@@ -21,12 +21,12 @@
     </header>
     <main>
       <h1>Privacy policy</h1>
-      <p class="muted">Effective 24 October 2026 · first iPhone release</p>
+      <p class="muted">Effective 10 November 2026</p>
       <p>
-        Mewlantern is a free puzzle game. This version has no advertisements, advertising consent
-        form, tracking prompt or gameplay analytics. No account is required. Advertising and
-        analytics code is retained for a possible later update but is inactive in this release. We
-        will update this policy before changing what the game collects.
+        Mewlantern is a free puzzle game. It has no advertisements, no tracking and no gameplay
+        analytics, and no account is required. Data leaves your device in only three cases,
+        described below: a crash or error report when something goes wrong, feedback you choose to
+        send, and emails you send us.
       </p>
       <h2>Who we are</h2>
       <p>
@@ -37,12 +37,12 @@
       <h2>Your saved game</h2>
       <p>
         Your full saved game, including progress, best moves, stars, nickname, house, outfit, story
-        choices and settings, stays on your device. There is no cloud save or cross-device sync.
+        choices and settings, stays on your device. The game has no cloud save or cross-device sync
+        of its own; your iPhone's iCloud or computer backup includes it like other app data.
         Deleting the app removes its local saved game. The game does not send your nickname or
-        upload a copy of your save. Diagnostic reports can include recent game actions as described
-        below. A PostHog Player ID is not created or displayed in this release.
+        upload a copy of your save. Crash reports can include recent game steps as described below.
       </p>
-      <h2>Services used in this release</h2>
+      <h2>Services the game uses</h2>
       <div class="table-wrap">
         <table class="stack">
           <thead>
@@ -55,41 +55,31 @@
           <tbody>
             <tr>
               <td>
-                <strong>Crash diagnostics</strong><br />Sentry (Functional Software, Inc., EU
+                <strong>Crash and error reports</strong><br />Sentry (Functional Software, Inc., EU
                 project)
               </td>
               <td data-label="Data">
-                Errors, diagnostic installation/session identifiers, device and operating-system
-                details, app version and update, recent in-game actions, app sessions, and sampled
-                performance data such as screen-loading times. The app disables default personal
-                information collection and overrides the reported IP address to prevent IP
-                inference. Session replay and automatic screenshots are off.
+                Sent only when the game crashes or hits an error: the error and where in the code it
+                happened, a random identifier the crash reporter creates for this installation,
+                device model, operating-system version, app version and build, the level being
+                played, and the last game steps and app events (such as going to the background)
+                before the problem. Taps are not recorded. Those recent steps stay on your device
+                until a report is sent. The game sends no usage sessions or performance
+                measurements. The app disables default personal information collection and overrides
+                the reported IP address to prevent IP inference. The game never records your screen
+                or takes screenshots.
               </td>
-              <td data-label="Purpose">Finding and fixing errors and performance problems.</td>
+              <td data-label="Purpose">Finding and fixing crashes and errors.</td>
             </tr>
             <tr>
               <td><strong>Feedback you choose to send</strong><br />Sentry</td>
               <td data-label="Data">
-                Your bug report and associated app diagnostics; your name and email only if you
-                choose to enter them. Those contact fields are optional. The form does not
-                automatically fill them from your nickname.
+                Your message, with the same device and app details and recent game steps as a crash
+                report; your name and email only if you choose to enter them. Those contact fields
+                are optional. The form does not automatically fill them from your nickname.
               </td>
               <td data-label="Purpose">
                 Investigating your report and replying when contact details are supplied.
-              </td>
-            </tr>
-            <tr>
-              <td><strong>App updates</strong><br />Expo (650 Industries, Inc.)</td>
-              <td data-label="Data">
-                A random client identifier saved on this installation, platform, app/runtime
-                version, update channel, current update and IP address when the game checks for or
-                downloads compatible updates. If a previous launch failed, the updater can include a
-                limited startup-error excerpt. Expo can derive aggregate app-usage statistics from
-                update requests. This client identifier is separate from a PostHog Player ID and is
-                not an advertising identifier.
-              </td>
-              <td data-label="Purpose">
-                Delivering compatible fixes and operating the update service.
               </td>
             </tr>
             <tr>
@@ -107,22 +97,25 @@
         providers receive network addresses when connections reach them; the Sentry override
         concerns report content and does not make network connections anonymous.
       </p>
+      <h2>On the App Store privacy label</h2>
+      <p>
+        Data linked to you, used only for app functionality and never for tracking: Name, Email
+        Address, Customer Support, Other User Content, Device ID, Crash Data, Other Diagnostic Data
+        and Product Interaction. Name and Email Address come only from feedback where you choose to
+        enter them; Device ID is the crash reporter's random installation identifier; Product
+        Interaction is the recent game steps in a crash report or feedback.
+      </p>
       <h2>Your choices</h2>
       <p>
-        You can play the included puzzles, story and house content without an internet connection.
-        Updates, online support pages and sending feedback need a connection. Feedback is voluntary;
-        avoid including sensitive information. This release has no gameplay-analytics switch because
-        that service is inactive. A preference saved by an earlier preview is retained locally and
-        does not enable collection. There is no recording of your screen or play session.
+        You can play all of the puzzles, story and house content without an internet connection.
+        Online support pages and sending feedback need a connection. Feedback is voluntary; avoid
+        including sensitive information. The game never records your screen or takes screenshots.
       </p>
       <h2>How long data is kept</h2>
       <ul>
         <li>Local saved game: until you delete the app or reset the relevant section.</li>
-        <li>Crash reports and performance diagnostics: up to 90 days.</li>
+        <li>Crash and error reports: up to 90 days.</li>
         <li>Support correspondence: as long as needed to help you, and no longer than 2 years.</li>
-        <li>
-          Expo service data: under <a href="https://expo.dev/privacy">Expo's privacy policy</a>.
-        </li>
       </ul>
       <h2>Your rights</h2>
       <p>
@@ -155,13 +148,11 @@
       <h2>Provider policies</h2>
       <ul>
         <li><a href="https://sentry.io/privacy/">Sentry privacy policy</a></li>
-        <li><a href="https://expo.dev/privacy">Expo privacy policy</a></li>
       </ul>
       <h2>Changes</h2>
       <p>
-        We will update this page and its effective date when practices change. Significant changes
-        will also be described in the game's release notes. Ads or gameplay analytics require a
-        dedicated later update and revised disclosures before activation.
+        We will update this page and its effective date before the game's data practices change.
+        Significant changes will also be described in the game's release notes.
       </p>
     </main>
     <footer class="site">
